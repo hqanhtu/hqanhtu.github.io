@@ -1,0 +1,113 @@
+
+
+body {
+    background-image: url("..//img/bg1.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+body .text {
+    position: relative;
+}
+
+body .text .author {
+    font-size: 13px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: gray;
+    position: absolute;
+    left: 5px;
+    bottom: -15px;
+}
+
+section {
+    opacity: 0.95;
+}
+
+
+/* Menu */
+
+#menu-wrapper {
+    background: rgb(156, 60, 162);
+    overflow: hidden;
+    height: 50px;
+    opacity: 0.8;
+}
+
+#menu {
+    overflow: hidden;
+    height: 70px;
+    width: 1000px;
+    margin: 0px auto;
+    overflow: hidden;
+    height: 70px;
+}
+
+#menu ul {
+    height: 70px;
+    margin: 0;
+    padding: 0px 0px 0px 0px;
+    list-style: none;
+    line-height: normal;
+    text-align: center;
+}
+
+#menu li {
+    display: inline-block;
+}
+
+#menu a {
+    display: block;
+    padding: 0px 30px;
+    line-height: 52px;
+    border: none;
+    text-decoration: none;
+    text-transform: lowercase;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    color: #FFFFFF;
+}
+
+#menu .current_page_item a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+#menu a:hover {
+    background: rgb(85, 82, 82);
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+
+/* W3 */
+
+body,
+h1 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 50px;
+}
+
+img {
+    margin-bottom: -7px
+}
+
+.w3-row-padding img {
+    margin-bottom: 12px
+}
+
+p {
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+h1 b {
+    color: white
+}
+.w3-medium {
+    color: black
+}
+
